@@ -1,3 +1,3 @@
-Author : rejo / Park Jeong Geun 
+Author : Rejo / Park Jeong Geun 
 
 Baekjoon Code Upload Repository
