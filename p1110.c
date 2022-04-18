@@ -1,4 +1,4 @@
-//1110. 더하기 사이클
+//1110. 더하기 사이클.
 #include <stdio.h>
 
 int main(void) {
