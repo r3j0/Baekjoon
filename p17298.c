@@ -20,7 +20,6 @@ int main(void) {
 			{
 				result[stack[stack_size - 1]] = arr[i];
 				stack_size--;
-				stack[stack_size] = -1;
 			}
 			else
 				break;
