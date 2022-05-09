@@ -1,3 +1,4 @@
+//10824. 네 수
 #include <stdio.h>
 
 int main(void) {
