@@ -9,18 +9,10 @@ int main(void) {
 	for (int i = 0; i < t; i++) {
 		scanf("%d %d", &a, &b);
 		count = 1;
-		if (a > b) {
-			while ((b * count) % a != 0) {
-				count++;
-			}
-			printf("%d\n", b * count);
+		while ((a * count) % b != 0) {
+			count++;
 		}
-		else {
-			while ((a * count) % b != 0) {
-				count++;
-			}
-			printf("%d\n", a * count);
-		}
+		printf("%d\n", a * count);
 	}
 	return 0;
 }
